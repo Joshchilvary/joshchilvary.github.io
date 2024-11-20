@@ -1,0 +1,476 @@
+.nav-head{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.nav-btn
+{
+left: 50%;
+top: 8px;
+transform: translateX(-50%);
+position: absolute;
+}
+
+.contact-btn
+{
+left: 95%;
+top: 8px;
+transform: translateX(-50%);
+position: absolute;
+
+}
+.contact-btn li{
+padding-left: 20px;
+padding-right: 20px;
+
+background-color: orange;
+border-radius: 100px;
+}
+.navbar-toggler
+{
+    border: none;
+    outline: none;
+    padding: 0%;
+    margin: 0;   
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(wpp.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+#offcanvasExample{
+    width: 300px;
+}
+.offcanvas-header{
+    margin-top: 20px;
+}
+.home-text{
+    margin-top: 150px;
+}
+.home-button{
+    margin-top: 30px;
+}
+.home-button .but
+{
+    color: white;
+    padding: 5px 40px 5px 40px;
+    background: orange;
+    font-size: 16px;
+    border-color: orange;
+    border-style: initial;
+    border-radius: 100px;
+}
+.home-button .but:hover{
+    background: white;
+    color: orange;
+}
+.home-button .butn
+{
+    color: orange;
+    padding: 5px 40px 5px 40px;
+    background: transparent;
+    font-size: 16px;
+    border-color: orange;
+    border-width: 1px;
+    border-radius: 100px;
+}
+.home-button .butn:hover{
+    color: white;
+    border-color: white;
+}
+.soc-icons{
+    margin-top: 140px;
+   
+}
+.soc-icons i{
+    padding-left: 20px;
+    padding-right:20px;
+    cursor: pointer;
+    color: white;
+}
+.soc-icons i:hover{
+    transform: translateY(-30%);
+    color: orange;
+}
+.style-text {
+    transform: translateX(120%);
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example {
+    from {transform: translateX(120%); }
+    to {transform: translateX(0%); }
+  }
+.style-img{
+    width: 200px;
+    position: absolute;
+    transform: rotate(10deg);
+    left: 15% ;
+
+}
+.style-img .fet1{
+    width: 90px;
+
+    transform: translateY(-100%);
+    animation-name: ex;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.style-img1{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: rotate(-20deg);
+
+}
+.style-img1 .fet1{
+    width: 50px;
+    transform: translateY(-200%);
+    animation-name: ex;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.style-img2{
+    width: 200px;
+    position: absolute;
+    left: 80%;
+    transform: rotate(30deg);
+
+}
+.style-img2 .fet1{
+    width: 70px;
+    
+    transform: translateY(-100%);
+    animation-name: ex;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.style-img3{
+    width: 200px;
+    position: absolute;
+    left: 25%;
+    transform: rotate(-30deg);
+
+}
+.style-img3 .fet1{
+    width: 100px;
+    transform: translateY(-100%);
+    animation-name: ex;
+    animation-duration: 17s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.style-img4{
+    width: 200px;
+    position: absolute;
+    left: 70%;
+    transform: rotate(-50deg);
+
+}
+.style-img4 .fet1{
+    width: 100px;
+    transform: translateY(-100%);
+    animation-name: ex;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.style-img5{
+    width: 200px;
+    position: absolute;
+    left: 50%;
+    transform: rotate(50deg);
+
+}
+.style-img5 .fet1{
+    width: 100px;
+    transform: translateY(-100%);
+    animation-name: ex;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes ex {
+    from {transform: translateY(-200%); }
+    to {transform: translateY(3000%); }
+  }
+
+
+  /*--------------Portfolio page--------------*/
+  .port-home{
+    margin-top: 55px;
+    width: 100%;
+    height: 25vh;
+    background-image: url(gtt.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.nav-port{
+    background: black;
+    position: fixed;
+}
+.dir-text{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.dir-text h6 {
+    color: white;
+
+}
+.abt-sec{
+    margin-top: 100px;
+}
+.abt-img{
+    width: 300px;
+}
+.abt-img img{
+    width: 50%;
+}
+.img-style{
+    position: relative;
+}
+.img-style::after {
+    content: '';
+    position: absolute;
+    background-color: orange;
+    z-index: -1; 
+    left: 42%;
+    height: 98%;
+    width: 38%;
+    top: 30px;
+}
+.abt-head{
+    color: orange;
+ }
+ .hom-button{
+    margin-top: 30px;
+}
+.hom-button .bt
+{
+    color: white;
+    padding: 5px 40px 5px 40px;
+    background: orange;
+    font-size: 16px;
+    border-color: orange;
+    border-style: initial;
+    border-radius: 100px;
+}
+.hom-button .bt:hover{
+    background: black;
+}
+.hom-button .bot
+{
+    color: orange;
+    padding: 5px 40px 5px 40px;
+    background: white;
+    font-size: 16px;
+    border-color: orange;
+    border-width: 1px;
+    border-radius: 100px;
+    border-style: double;
+}
+.hom-button .bot:hover{
+    color: black;
+    border-color: black;
+}
+.skill{
+    margin-top: 50px;
+    width: 100%;
+    height: 80vh;
+    background-image: url(gtt.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden; 
+}
+.progress{
+    height: 100px;
+}
+.progress-bar{
+    background-color: orange;
+}
+.achieve{
+    margin-top: 50px;
+}
+.achieve-text {
+    margin-top: 60px;
+}
+.achieve-text p{
+    color: orange;
+}
+
+
+
+
+.services{
+    margin-top: 150px;
+}
+.recent-box{
+    margin: 80px 0;
+    margin-bottom: 35px;
+
+}
+
+.recent-img{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.recent-img img{
+    width: 100%;
+}
+.btn-view{
+    width: 60;
+    padding: 10px 0;
+    position: absolute;
+    color: white;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+    opacity: 1;
+    z-index: 1;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: orange; 
+    top: 0;
+    position: absolute;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.over{
+    height: 100%;
+    width: 100%;
+    background: black; 
+    top: 0;
+    position: absolute;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+.tiny{
+    font-size: 12px;
+}
+
+
+
+
+.Contact{
+    margin-top: 100px;
+}
+input[type=text], input[type=email]{
+    padding-left: 5px;
+    height: 35px;
+    width: 100%;
+    border-radius: 3px;
+    border-color: gray;
+    border-style: double;
+    outline-color: orange;
+}
+textarea{
+    padding-left: 5px;
+    width: 100%;
+    height: 100px;
+    border-radius: 3px;
+    border-color: gray;
+    outline-color: orange;
+    border-width: 2px;
+}
+label{
+    color: black;
+}
+.submit-btn {
+    background-color: orange;
+    border-style: double;
+    border-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 3px;
+    width: 100px;
+    
+}
+.e-form{
+    margin-top: 100px;
+}
+.media i{
+   color: orange;
+}
+.foot-cont{
+    font-size: 12px;
+    position: relative;
+}
+.logo{
+    margin-left: 10%;
+}
+.copy{
+    
+    left: 80%;
+    transform: translateX(-20%);
+    position: absolute;
+}
+
+
+/*--------------Portfolio images--------------*/
+.tabs
+{
+    margin-top: 30px;
+    color: black;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.tabs ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.tab{
+    cursor: pointer;
+    padding: 20px;
+    border-bottom: 3px solid black;
+}
+.tab:hover{
+    border-bottom-color: orange;
+}
+.tab.active{
+    color: orange;
+    border-bottom-color: orange;
+}
+[data-tab-content]{
+    display: none;
+    animation-name: move;
+    animation-duration: 1s;
+}
+@keyframes move{
+  from {transform: translateX(120%); opacity: 0;}
+  to {transform: translateX(0%); opacity: 1;}
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+
+@media only screen and (max-width:900px){
+    .skill{
+        width: 100%;
+        height: 180vh;
+        background-image: url(gtt.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden; 
+    }
+   
+}
+ 
